@@ -237,7 +237,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -247,7 +247,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -257,7 +257,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -267,7 +267,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -277,7 +277,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -287,7 +287,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -297,7 +297,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -307,7 +307,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -317,7 +317,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -327,7 +327,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -337,7 +337,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -347,7 +347,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -357,7 +357,7 @@
     "gambar": "assets/img/ig.jpg",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -367,7 +367,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -377,7 +377,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -387,7 +387,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -397,7 +397,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -407,7 +407,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -417,7 +417,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -427,7 +427,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -437,7 +437,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -447,7 +447,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -457,7 +457,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -467,7 +467,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -477,7 +477,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   },
   {
     "id": 6,
@@ -487,7 +487,7 @@
     "gambar": "assets/img/tt.png",
     "kategori": "followers",
     "diskon": false,
-    "best_seller": true
+    "best_seller": false
   }
 
 ]
