@@ -1,0 +1,170 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f8fafc;
+  color: #1f2937;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+/* Navbar Styles */
+.manual-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links li a {
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #0d6efd;
+}
+
+/* Toggle button */
+.menu-toggle {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none; /* Sembunyikan tombol toggle di desktop */
+}
+
+/* Side Menu Styles */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -260px; /* Menyembunyikan menu di luar layar */
+  width: 260px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: right 0.3s ease;
+  z-index: 999;
+  display: none; /* Sembunyikan secara default */
+  margin-top: 50px;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu ul li {
+  margin-bottom: 1.5rem;
+}
+
+.side-menu ul li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+}
+
+.side-menu ul li a:hover {
+  color: #0d6efd;
+}
+
+.side-menu.show {
+  right: 0; /* Tampilkan menu */
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #0d6efd, #6610f2);
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
+/* Carousel Styles */
+.carousel-item blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.carousel-item img {
+  cursor: zoom-in;
+  max-height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #e2e8f0;
+  color: #4b5563;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Sembunyikan navbar biasa di ponsel */
+  }
+
+  .menu-toggle {
+    display: block; /* Tampilkan tombol toggle */
+  }
+
+  .side-menu {
+    display: block; /* Tampilkan side menu */
+  }
+
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WII Store - Beranda</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- CSS Eksternal -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-white text-dark">
+
+  <!-- Navbar -->
+  <nav class="manual-navbar">
+    <div class="logo"><a href="index.html">WII Store</a></div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="topup.html">Top Up</a></li>
+      <li><a href="aplikasi.html">Aplikasi</a></li>
+      <li><a href="followers.html">Followers</a></li>
+    </ul>
+
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+  </nav>
+
+  <!-- Side menu for mobile -->
+  <aside class="side-menu" id="sideMenu">
+    <ul>
+      <li><a href="topup.html">Top Up</a></li>
+      <li><a href="aplikasi.html">Aplikasi</a></li>
+      <li><a href="followers.html">Followers</a></li>
+    </ul>
+  </aside>
+
+  <!-- ✅ Hero -->
+  <header class="text-center py-5 bg-light">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Selamat Datang di WII Store</h1>
+      <p class="lead">Top Up, Aplikasi Premium, dan Followers Termurah & Terpercaya.</p>
+      <a href="#produk-diskon" class="btn btn-primary btn-lg mt-3">Lihat Produk Unggulan</a>
+    </div>
+  </header>
+
+<!-- ✅ Video Section -->
+<section class="py-5 bg-white text-center">
+  <div class="container">
+    <h2 class="mb-4 fw-bold">WII STORE</h2>
+    <section class="flex justify-center mt-6">
+      <div class="relative w-full" style="max-width: 720px; aspect-ratio: 16 / 9;">
+        <iframe 
+          src="https://www.youtube.com/embed/14Z5mx6-dvU?rel=0&controls=0&showinfo=0&modestbranding=1" 
+          frameborder="0" 
+          allow="autoplay; encrypted-media" 
+          allowfullscreen
+          class="absolute top-0 left-0 w-full h-full rounded-lg">
+        </iframe>
+      </div>
+    </section>
+  </div>
+</section>
+
+  
+
+  <!-- 🔥 Produk Diskon -->
+  <section id="produk-diskon" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">🔥 Produk Diskon</h2>
+      <div class="row" id="diskon-list">
+        <!-- Produk diskon dari JSON -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 🏆 Best Seller -->
+  <section id="produk-best" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">🏆 Best Seller</h2>
+      <div class="row" id="best-list">
+        <!-- Produk best seller dari JSON -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 💸 Produk Termurah -->
+  <section id="produk-termurah" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">💸 Produk Termurah</h2>
+      <div class="row" id="termurah-list">
+        <!-- Produk termurah dari JSON -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Testimoni -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">📢 Testimoni</h2>
+      <div id="carouselTestimoni" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" id="carousel-inner">
+          <!-- Testimoni dari JSON -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimoni" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimoni" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Modal Zoom Gambar -->
+  <div class="modal fade" id="zoomModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-transparent border-0">
+        <img src="" id="zoomImg" class="img-fluid rounded" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ Footer -->
+  <footer class="text-center py-4 bg-dark text-white">
+    <p class="mb-0">© 2025 WII Store. All rights reserved.</p>
+  </footer>
+
+  <!-- 🔘 Tombol Join Reseller Mengambang -->
+<a href="https://wa.me/6281249766227?text=Halo,%20saya%20ingin%20bergabung%20sebagai%20reseller." 
+class="btn btn-success position-fixed bottom-0 end-0 m-4 shadow-lg rounded-pill" 
+target="_blank" style="z-index:1055;">
+<i class="bi bi-whatsapp me-1"></i> Join Reseller
+</a>
+
+<!-- 💬 Modal Join Reseller -->
+<div class="modal fade" id="resellerModal" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered">
+ <div class="modal-content">
+   <div class="modal-header">
+     <h5 class="modal-title">Gabung Jadi Reseller</h5>
+     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+   </div>
+   <div class="modal-body">
+     Mau penghasilan tambahan dari jualan produk digital? Yuk gabung jadi <strong>Reseller WII Store</strong> sekarang!
+   </div>
+   <div class="modal-footer">
+     <a href="https://wa.me/6281249766227?text=Halo,%20saya%20tertarik%20jadi%20reseller!" 
+        target="_blank" class="btn btn-success">Gabung Sekarang</a>
+     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nanti Dulu</button>
+   </div>
+ </div>
+</div>
+</div>
+
+
+<!-- ✅ JS Eksternal -->
+<script src="script.js"></script>
+
+<!-- ✅ Script Zoom Gambar Testimoni -->
+<script>
+  document.addEventListener("click", function (e) {
+    if (e.target.classList.contains("zoomable-img")) {
+      document.getElementById("zoomImg").src = e.target.src;
+      const modal = new bootstrap.Modal(document.getElementById("zoomModal"));
+      modal.show();
+    }
+    });
+
+    const menuToggle = document.getElementById('menuToggle');
+    const sideMenu = document.getElementById('sideMenu');
+    
+    menuToggle.addEventListener('click', () => {
+      sideMenu.classList.toggle('show');
+    });
+    
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const modal = new bootstrap.Modal(document.getElementById('resellerModal'));
+        modal.show();
+      }, 2000);
+     });
+  </script>
+</body>
+</html>
